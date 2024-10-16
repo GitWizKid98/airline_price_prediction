@@ -273,7 +273,7 @@ from sklearn.metrics import r2_score
 
 r2_score(y_test, lr_pred)
 
-''' PICKLE MODEL '''
+'' PICKLE MODEL ''
 import pickle
 
 pickle.dump(lr,open('lr_model.pkl','wb'))
